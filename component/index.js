@@ -1,9 +1,5 @@
 'use strict';
 
-
-
-
-
 export const formAction = require("./redux/formAction.js");
 export const helpAction = require("./redux/helpAction.js");
 export const searchAction = require("./redux/searchAction.js");

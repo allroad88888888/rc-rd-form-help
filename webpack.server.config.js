@@ -10,7 +10,7 @@ const PATHS = {
 
 module.exports = {
   entry: {
-    "yuapt-help":"./component/index.js"//"./component/index.js"
+    "react-redux-help":"./component/index.js"//"./component/index.js"
   },
   output: {
     path: __dirname + "/build",
