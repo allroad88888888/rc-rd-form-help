@@ -4,6 +4,9 @@
 
 表单辅助
 表单的数据结构为:
+
+
+<pre><code>
 {
     form:{
         "key1":{
@@ -19,8 +22,7 @@
             vaResult:false,//表单所有字段都校验正确  这里变为true
             values:{
                 subKey1:value
-            }//表单保存的值
-           
+            }//表单保存的值      
         },
         "key2":{
             filds:{
@@ -39,6 +41,8 @@
         }
     }
 }
+</code></pre>
+
 
 ## 表单初始化formInit(key,filds)
 ## 表单设置值formSetValue(key,subKey,value)
